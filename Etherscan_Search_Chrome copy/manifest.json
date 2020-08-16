@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "Etherscan Address Search",
+    "description": "Adds right-click context menu to search Etherscan for an Ethereum address",
+    "version": "1.11",
+    "permissions": [
+        "contextMenus",
+        "http://*/*"
+    ],
+    "background": {
+        "scripts": ["search.js"]
+    },
+    "browser_action": {
+        "default_icon": "icon.png"
+    },
+    "icons": {
+        "16": "icon_tiny.png"
+    }
+}
